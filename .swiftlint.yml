@@ -1,0 +1,15 @@
+included:
+  - andfactory-iOS-kadai
+
+excluded:
+  - Pods
+
+disabled_rules:
+  - force_cast
+
+identifier_name:
+  min_length: 1
+
+line_length:
+  - 300   # warning
+  - 400   # error
