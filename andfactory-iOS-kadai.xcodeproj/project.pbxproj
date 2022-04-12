@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24A73C2773D4D837F836DA71 /* Pods_andfactory_iOS_kadai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECFC3075AE47F801A1184A9 /* Pods_andfactory_iOS_kadai.framework */; };
 		2AF73DEB2805BC1D0003C295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF73DEA2805BC1D0003C295 /* AppDelegate.swift */; };
 		2AF73DED2805BC1D0003C295 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF73DEC2805BC1D0003C295 /* SceneDelegate.swift */; };
 		2AF73DEF2805BC1D0003C295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF73DEE2805BC1D0003C295 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		2AF73E022805BC1E0003C295 /* andfactory_iOS_kadaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF73E012805BC1E0003C295 /* andfactory_iOS_kadaiTests.swift */; };
 		2AF73E0C2805BC1E0003C295 /* andfactory_iOS_kadaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF73E0B2805BC1E0003C295 /* andfactory_iOS_kadaiUITests.swift */; };
 		2AF73E0E2805BC1E0003C295 /* andfactory_iOS_kadaiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF73E0D2805BC1E0003C295 /* andfactory_iOS_kadaiUITestsLaunchTests.swift */; };
+		7A452AF8812C2DF16A95B7D7 /* Pods_andfactory_iOS_kadai_andfactory_iOS_kadaiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0768EEDD8C8D0112F918DADA /* Pods_andfactory_iOS_kadai_andfactory_iOS_kadaiUITests.framework */; };
+		ED1DF3EF3C43193F56AE8056 /* Pods_andfactory_iOS_kadaiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE199615F3D3D6AAC6D55E53 /* Pods_andfactory_iOS_kadaiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0768EEDD8C8D0112F918DADA /* Pods_andfactory_iOS_kadai_andfactory_iOS_kadaiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_andfactory_iOS_kadai_andfactory_iOS_kadaiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF73DE72805BC1D0003C295 /* andfactory-iOS-kadai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "andfactory-iOS-kadai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF73DEA2805BC1D0003C295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AF73DEC2805BC1D0003C295 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		2AF73E072805BC1E0003C295 /* andfactory-iOS-kadaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "andfactory-iOS-kadaiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF73E0B2805BC1E0003C295 /* andfactory_iOS_kadaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = andfactory_iOS_kadaiUITests.swift; sourceTree = "<group>"; };
 		2AF73E0D2805BC1E0003C295 /* andfactory_iOS_kadaiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = andfactory_iOS_kadaiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		46C205C78CD6B27F0459D2CA /* Pods-andfactory-iOS-kadai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-andfactory-iOS-kadai.release.xcconfig"; path = "Target Support Files/Pods-andfactory-iOS-kadai/Pods-andfactory-iOS-kadai.release.xcconfig"; sourceTree = "<group>"; };
+		4ECFC3075AE47F801A1184A9 /* Pods_andfactory_iOS_kadai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_andfactory_iOS_kadai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ADA9188D7F46899E0BCE4E /* Pods-andfactory-iOS-kadai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-andfactory-iOS-kadai.debug.xcconfig"; path = "Target Support Files/Pods-andfactory-iOS-kadai/Pods-andfactory-iOS-kadai.debug.xcconfig"; sourceTree = "<group>"; };
+		7F4F7430C52C651E19A0896A /* Pods-andfactory-iOS-kadaiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-andfactory-iOS-kadaiTests.release.xcconfig"; path = "Target Support Files/Pods-andfactory-iOS-kadaiTests/Pods-andfactory-iOS-kadaiTests.release.xcconfig"; sourceTree = "<group>"; };
+		968526494B162CABDDD5F8C9 /* Pods-andfactory-iOS-kadai-andfactory-iOS-kadaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-andfactory-iOS-kadai-andfactory-iOS-kadaiUITests.debug.xcconfig"; path = "Target Support Files/Pods-andfactory-iOS-kadai-andfactory-iOS-kadaiUITests/Pods-andfactory-iOS-kadai-andfactory-iOS-kadaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD483E798D0AC2B2CAC0F589 /* Pods-andfactory-iOS-kadai-andfactory-iOS-kadaiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-andfactory-iOS-kadai-andfactory-iOS-kadaiUITests.release.xcconfig"; path = "Target Support Files/Pods-andfactory-iOS-kadai-andfactory-iOS-kadaiUITests/Pods-andfactory-iOS-kadai-andfactory-iOS-kadaiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE199615F3D3D6AAC6D55E53 /* Pods_andfactory_iOS_kadaiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_andfactory_iOS_kadaiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC68470CF319E9E978A4F40F /* Pods-andfactory-iOS-kadaiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-andfactory-iOS-kadaiTests.debug.xcconfig"; path = "Target Support Files/Pods-andfactory-iOS-kadaiTests/Pods-andfactory-iOS-kadaiTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A73C2773D4D837F836DA71 /* Pods_andfactory_iOS_kadai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1DF3EF3C43193F56AE8056 /* Pods_andfactory_iOS_kadaiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A452AF8812C2DF16A95B7D7 /* Pods_andfactory_iOS_kadai_andfactory_iOS_kadaiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				2AF73E002805BC1E0003C295 /* andfactory-iOS-kadaiTests */,
 				2AF73E0A2805BC1E0003C295 /* andfactory-iOS-kadaiUITests */,
 				2AF73DE82805BC1D0003C295 /* Products */,
+				ABD70C0F7AAE43C7D796413D /* Pods */,
+				4042E9A9D9DF71E911F82D74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,29 @@
 			path = "andfactory-iOS-kadaiUITests";
 			sourceTree = "<group>";
 		};
+		4042E9A9D9DF71E911F82D74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ECFC3075AE47F801A1184A9 /* Pods_andfactory_iOS_kadai.framework */,
+				0768EEDD8C8D0112F918DADA /* Pods_andfactory_iOS_kadai_andfactory_iOS_kadaiUITests.framework */,
+				BE199615F3D3D6AAC6D55E53 /* Pods_andfactory_iOS_kadaiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABD70C0F7AAE43C7D796413D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70ADA9188D7F46899E0BCE4E /* Pods-andfactory-iOS-kadai.debug.xcconfig */,
+				46C205C78CD6B27F0459D2CA /* Pods-andfactory-iOS-kadai.release.xcconfig */,
+				968526494B162CABDDD5F8C9 /* Pods-andfactory-iOS-kadai-andfactory-iOS-kadaiUITests.debug.xcconfig */,
+				AD483E798D0AC2B2CAC0F589 /* Pods-andfactory-iOS-kadai-andfactory-iOS-kadaiUITests.release.xcconfig */,
+				EC68470CF319E9E978A4F40F /* Pods-andfactory-iOS-kadaiTests.debug.xcconfig */,
+				7F4F7430C52C651E19A0896A /* Pods-andfactory-iOS-kadaiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AF73E112805BC1E0003C295 /* Build configuration list for PBXNativeTarget "andfactory-iOS-kadai" */;
 			buildPhases = (
+				6A4C235F0E912A5545170E28 /* [CP] Check Pods Manifest.lock */,
 				2AF73DE32805BC1D0003C295 /* Sources */,
 				2AF73DE42805BC1D0003C295 /* Frameworks */,
 				2AF73DE52805BC1D0003C295 /* Resources */,
+				2A09FC742805D3FB009E4F53 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AF73E142805BC1E0003C295 /* Build configuration list for PBXNativeTarget "andfactory-iOS-kadaiTests" */;
 			buildPhases = (
+				8F4A9168E060F54D0786ABD6 /* [CP] Check Pods Manifest.lock */,
 				2AF73DF92805BC1E0003C295 /* Sources */,
 				2AF73DFA2805BC1E0003C295 /* Frameworks */,
 				2AF73DFB2805BC1E0003C295 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AF73E172805BC1E0003C295 /* Build configuration list for PBXNativeTarget "andfactory-iOS-kadaiUITests" */;
 			buildPhases = (
+				FD5AD6B0C778DB998BA1F6E5 /* [CP] Check Pods Manifest.lock */,
 				2AF73E032805BC1E0003C295 /* Sources */,
 				2AF73E042805BC1E0003C295 /* Frameworks */,
 				2AF73E052805BC1E0003C295 /* Resources */,
@@ -252,6 +296,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A09FC742805D3FB009E4F53 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		6A4C235F0E912A5545170E28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-andfactory-iOS-kadai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F4A9168E060F54D0786ABD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-andfactory-iOS-kadaiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD5AD6B0C778DB998BA1F6E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-andfactory-iOS-kadai-andfactory-iOS-kadaiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2AF73DE32805BC1D0003C295 /* Sources */ = {
@@ -434,6 +564,7 @@
 		};
 		2AF73E122805BC1E0003C295 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70ADA9188D7F46899E0BCE4E /* Pods-andfactory-iOS-kadai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +593,7 @@
 		};
 		2AF73E132805BC1E0003C295 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C205C78CD6B27F0459D2CA /* Pods-andfactory-iOS-kadai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +622,7 @@
 		};
 		2AF73E152805BC1E0003C295 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC68470CF319E9E978A4F40F /* Pods-andfactory-iOS-kadaiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +643,7 @@
 		};
 		2AF73E162805BC1E0003C295 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4F7430C52C651E19A0896A /* Pods-andfactory-iOS-kadaiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +664,7 @@
 		};
 		2AF73E182805BC1E0003C295 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968526494B162CABDDD5F8C9 /* Pods-andfactory-iOS-kadai-andfactory-iOS-kadaiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +683,7 @@
 		};
 		2AF73E192805BC1E0003C295 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD483E798D0AC2B2CAC0F589 /* Pods-andfactory-iOS-kadai-andfactory-iOS-kadaiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
