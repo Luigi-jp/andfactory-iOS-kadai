@@ -7,7 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+    static func makeFromStoryboard() -> ViewController {
+        let vc = UIStoryboard.viewController
+        return vc
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
