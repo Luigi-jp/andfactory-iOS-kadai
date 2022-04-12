@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		24A73C2773D4D837F836DA71 /* Pods_andfactory_iOS_kadai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECFC3075AE47F801A1184A9 /* Pods_andfactory_iOS_kadai.framework */; };
+		2A09FC772805E3F2009E4F53 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A09FC762805E3F2009E4F53 /* Settings.bundle */; };
 		2AF73DEB2805BC1D0003C295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF73DEA2805BC1D0003C295 /* AppDelegate.swift */; };
 		2AF73DED2805BC1D0003C295 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF73DEC2805BC1D0003C295 /* SceneDelegate.swift */; };
 		2AF73DEF2805BC1D0003C295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF73DEE2805BC1D0003C295 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		0768EEDD8C8D0112F918DADA /* Pods_andfactory_iOS_kadai_andfactory_iOS_kadaiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_andfactory_iOS_kadai_andfactory_iOS_kadaiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A09FC762805E3F2009E4F53 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		2AF73DE72805BC1D0003C295 /* andfactory-iOS-kadai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "andfactory-iOS-kadai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF73DEA2805BC1D0003C295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AF73DEC2805BC1D0003C295 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				2AF73DF32805BC1E0003C295 /* Assets.xcassets */,
 				2AF73DF52805BC1E0003C295 /* LaunchScreen.storyboard */,
 				2AF73DF82805BC1E0003C295 /* Info.plist */,
+				2A09FC762805E3F2009E4F53 /* Settings.bundle */,
 			);
 			path = "andfactory-iOS-kadai";
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				2AF73DE42805BC1D0003C295 /* Frameworks */,
 				2AF73DE52805BC1D0003C295 /* Resources */,
 				2A09FC742805D3FB009E4F53 /* ShellScript */,
+				2A09FC752805DC09009E4F53 /* LicensePlist */,
 			);
 			buildRules = (
 			);
@@ -275,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A09FC772805E3F2009E4F53 /* Settings.bundle in Resources */,
 				2AF73DF72805BC1E0003C295 /* LaunchScreen.storyboard in Resources */,
 				2AF73DF42805BC1E0003C295 /* Assets.xcassets in Resources */,
 				2AF73DF22805BC1D0003C295 /* Main.storyboard in Resources */,
@@ -314,6 +319,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		2A09FC752805DC09009E4F53 /* LicensePlist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = LicensePlist;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ $CONFIGURATION = \"Debug\" ]; then\n${PODS_ROOT}/LicensePlist/license-plist --output-path $PRODUCT_NAME/Settings.bundle\nfi\n";
 		};
 		6A4C235F0E912A5545170E28 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
