@@ -1,20 +1,28 @@
 PODS:
+  - Alamofire (5.5.0)
   - LicensePlist (3.17.0)
+  - Nuke (10.7.1)
   - SwiftLint (0.46.2)
 
 DEPENDENCIES:
+  - Alamofire
   - LicensePlist
+  - Nuke
   - SwiftLint
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - LicensePlist
+    - Nuke
     - SwiftLint
 
 SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   LicensePlist: f7eaf6d1d39746d49415ab30f104b734d5163519
+  Nuke: 279f17a599fd1c83cf51de5e0e1f2db143a287b0
   SwiftLint: 6bc52a21f0fd44cab9aa2dc8e534fb9f5e3ec507
 
-PODFILE CHECKSUM: 91638c647dd49dcdeffcc37ad14c0d71277ebb90
+PODFILE CHECKSUM: 647d4a749c2219074110c86780c49cc553426c10
 
 COCOAPODS: 1.11.2

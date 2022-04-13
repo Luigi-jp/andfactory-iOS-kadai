@@ -8,6 +8,8 @@ target 'andfactory-iOS-kadai' do
   # Pods for andfactory-iOS-kadai
   pod 'SwiftLint'
   pod 'LicensePlist'
+  pod 'Alamofire'
+  pod 'Nuke'
 
   target 'andfactory-iOS-kadaiTests' do
     inherit! :search_paths
