@@ -38,6 +38,12 @@
                                     <constraint firstAttribute="width" constant="50" id="3R9-i1-gKq"/>
                                 </constraints>
                             </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="該当のユーザーが見つかりませんでした。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoY-If-MIA">
+                                <rect key="frame" x="61.5" y="239" width="291" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -46,9 +52,11 @@
                             <constraint firstItem="MNI-hJ-uZk" firstAttribute="top" secondItem="ovq-WV-x7p" secondAttribute="bottom" constant="150" id="AXj-kb-1O5"/>
                             <constraint firstItem="9KX-4B-Nvc" firstAttribute="top" secondItem="ovq-WV-x7p" secondAttribute="bottom" id="BL3-58-5Vo"/>
                             <constraint firstItem="MNI-hJ-uZk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q1h-Pu-NhU"/>
+                            <constraint firstItem="hoY-If-MIA" firstAttribute="top" secondItem="ovq-WV-x7p" secondAttribute="bottom" constant="100" id="Ywa-yV-5Gm"/>
                             <constraint firstItem="ovq-WV-x7p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aY7-X9-uAi"/>
                             <constraint firstItem="ovq-WV-x7p" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bsa-Nx-7mt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9KX-4B-Nvc" secondAttribute="bottom" id="d5h-95-c0Z"/>
+                            <constraint firstItem="hoY-If-MIA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="msC-ba-jTV"/>
                             <constraint firstItem="ovq-WV-x7p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="s5q-t5-Aeq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9KX-4B-Nvc" secondAttribute="trailing" id="zla-7b-URr"/>
                         </constraints>
@@ -56,6 +64,7 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="indicator" destination="MNI-hJ-uZk" id="G5d-1K-ZcZ"/>
+                        <outlet property="notFoundLabel" destination="hoY-If-MIA" id="pWN-hS-CvX"/>
                         <outlet property="searchBar" destination="ovq-WV-x7p" id="WLJ-AU-ZgO"/>
                         <outlet property="tableView" destination="9KX-4B-Nvc" id="kwi-Kq-J8O"/>
                     </connections>

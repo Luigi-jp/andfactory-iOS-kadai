@@ -19,6 +19,7 @@ final class SearchUserViewController: UIViewController {
     @IBOutlet private weak var searchBar: UISearchBar!
     @IBOutlet private weak var tableView: UITableView!
     @IBOutlet private weak var indicator: UIActivityIndicatorView!
+    @IBOutlet private weak var notFoundLabel: UILabel!
 
     private var presenter: SearchUserPresenterInput!
     private func inject(presenter: SearchUserPresenterInput) {
@@ -33,6 +34,7 @@ final class SearchUserViewController: UIViewController {
 
         tableView.isHidden = true
         indicator.isHidden = true
+        notFoundLabel.isHidden = true
     }
 }
 
@@ -60,6 +62,12 @@ extension SearchUserViewController: UITableViewDataSource {
 extension SearchUserViewController: SearchUserPresenterOutput {
     func updateUsers(users: [User]) {
         DispatchQueue.main.async {
+            if users.isEmpty {
+                self.tableView.isHidden = true
+                self.notFoundLabel.isHidden = false
+                return
+            }
+            self.notFoundLabel.isHidden = true
             self.tableView.reloadData()
         }
     }
