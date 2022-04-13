@@ -15,10 +15,12 @@ struct User: Codable {
     let login: String
     let avatarUrlStr: String
     let type: String
+    let htmlUrlStr: String
 
     enum CodingKeys: String, CodingKey {
         case login
         case avatarUrlStr = "avatar_url"
         case type
+        case htmlUrlStr = "html_url"
     }
 }

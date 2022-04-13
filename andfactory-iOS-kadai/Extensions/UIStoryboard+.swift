@@ -11,4 +11,8 @@ extension UIStoryboard {
     static var searchUserViewController: SearchUserViewController {
         UIStoryboard(name: "SearchUser", bundle: nil).instantiateInitialViewController() as! SearchUserViewController
     }
+
+    static var userDetailViewController: UserDetailViewController {
+        UIStoryboard(name: "UserDetail", bundle: nil).instantiateInitialViewController() as! UserDetailViewController
+    }
 }

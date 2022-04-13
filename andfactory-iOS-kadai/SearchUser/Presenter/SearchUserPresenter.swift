@@ -11,12 +11,14 @@ protocol SearchUserPresenterInput {
     var numberOfUsers: Int { get }
     func didTapSearchButton(searchWord: String?)
     func user(index: Int) -> User
+    func didSelectRow(index: Int)
 }
 
 protocol SearchUserPresenterOutput: AnyObject {
     func updateUsers(users: [User])
     func errorOccureed(error: Error)
     func loading(load: Bool)
+    func showUserDetail(user: User)
 }
 
 final class SearchUserPresenter {
@@ -55,5 +57,9 @@ extension SearchUserPresenter: SearchUserPresenterInput {
 
     func user(index: Int) -> User {
         return users[index]
+    }
+
+    func didSelectRow(index: Int) {
+        view.showUserDetail(user: users[index])
     }
 }

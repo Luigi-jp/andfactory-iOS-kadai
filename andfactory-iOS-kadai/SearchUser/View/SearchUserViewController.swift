@@ -59,6 +59,13 @@ extension SearchUserViewController: UITableViewDataSource {
     }
 }
 
+extension SearchUserViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        presenter.didSelectRow(index: indexPath.row)
+    }
+}
+
 extension SearchUserViewController: SearchUserPresenterOutput {
     func updateUsers(users: [User]) {
         DispatchQueue.main.async {
@@ -82,6 +89,17 @@ extension SearchUserViewController: SearchUserPresenterOutput {
         DispatchQueue.main.async {
             self.tableView.isHidden = load
             self.indicator.isHidden = !load
+        }
+    }
+
+    func showUserDetail(user: User) {
+        DispatchQueue.main.async {
+            let vc = UserDetailViewController.makeFromStoryboard(user: user)
+            if let nav = self.navigationController {
+                nav.pushViewController(vc, animated: true)
+            } else {
+                self.present(vc, animated: true)
+            }
         }
     }
 }
