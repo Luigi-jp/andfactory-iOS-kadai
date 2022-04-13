@@ -8,12 +8,20 @@
 import UIKit
 
 final class UserCell: UITableViewCell {
+    @IBOutlet private weak var iconImageView: UIImageView!
+    @IBOutlet private weak var nameLabel: UILabel!
+    @IBOutlet private weak var typeLabel: UILabel!
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        iconImageView.image = nil
+        nameLabel.text = nil
+        typeLabel.text = nil
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+    func configure(item: User) {
+        iconImageView.loadImage(with: item.avatarUrlStr)
+        nameLabel.text = item.login
+        typeLabel.text = item.type
     }
 }
