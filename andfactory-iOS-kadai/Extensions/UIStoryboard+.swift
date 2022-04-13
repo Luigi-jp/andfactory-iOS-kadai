@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIStoryboard {
-    static var viewController: ViewController {
-        UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! ViewController
+    static var searchUserViewController: SearchUserViewController {
+        UIStoryboard(name: "SearchUser", bundle: nil).instantiateInitialViewController() as! SearchUserViewController
     }
 }
