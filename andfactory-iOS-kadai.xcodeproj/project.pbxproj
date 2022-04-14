@@ -23,6 +23,7 @@
 		2A09FC9B28074E10009E4F53 /* UserDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A09FC9A28074E10009E4F53 /* UserDetail.storyboard */; };
 		2A09FC9D28074E2C009E4F53 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A09FC9C28074E2C009E4F53 /* UserDetailViewController.swift */; };
 		2A09FCA128074EC8009E4F53 /* UserDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A09FCA028074EC8009E4F53 /* UserDetailPresenter.swift */; };
+		2A09FCA32808342E009E4F53 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A09FCA22808342E009E4F53 /* UIViewController+.swift */; };
 		2AF73DEB2805BC1D0003C295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF73DEA2805BC1D0003C295 /* AppDelegate.swift */; };
 		2AF73DED2805BC1D0003C295 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF73DEC2805BC1D0003C295 /* SceneDelegate.swift */; };
 		2AF73DEF2805BC1D0003C295 /* SearchUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF73DEE2805BC1D0003C295 /* SearchUserViewController.swift */; };
@@ -69,6 +70,7 @@
 		2A09FC9A28074E10009E4F53 /* UserDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserDetail.storyboard; sourceTree = "<group>"; };
 		2A09FC9C28074E2C009E4F53 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 		2A09FCA028074EC8009E4F53 /* UserDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailPresenter.swift; sourceTree = "<group>"; };
+		2A09FCA22808342E009E4F53 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		2AF73DE72805BC1D0003C295 /* andfactory-iOS-kadai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "andfactory-iOS-kadai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF73DEA2805BC1D0003C295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AF73DEC2805BC1D0003C295 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				2A09FC7928063806009E4F53 /* UIStoryboard+.swift */,
 				2A09FC82280642F9009E4F53 /* UITableViewCell+.swift */,
 				2A09FC8E28072322009E4F53 /* UIImageView+.swift */,
+				2A09FCA22808342E009E4F53 /* UIViewController+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -570,6 +573,7 @@
 			files = (
 				2A09FC8D28070B0D009E4F53 /* SearchUserParameter.swift in Sources */,
 				2A09FC8F28072322009E4F53 /* UIImageView+.swift in Sources */,
+				2A09FCA32808342E009E4F53 /* UIViewController+.swift in Sources */,
 				2A09FC9D28074E2C009E4F53 /* UserDetailViewController.swift in Sources */,
 				2A09FC7A28063806009E4F53 /* UIStoryboard+.swift in Sources */,
 				2AF73DEF2805BC1D0003C295 /* SearchUserViewController.swift in Sources */,
