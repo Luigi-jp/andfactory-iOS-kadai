@@ -39,6 +39,7 @@ extension SearchUserPresenter: SearchUserPresenterInput {
     }
 
     func didTapSearchButton(searchWord: String?) {
+        guard let searchWord = searchWord, !searchWord.isEmpty else { return }
         let parameters = SearchUserParameter(searchWord: searchWord)
         view.loading(load: true)
 
