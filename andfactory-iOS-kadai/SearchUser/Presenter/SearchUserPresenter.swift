@@ -25,9 +25,9 @@ final class SearchUserPresenter {
     private var users: [User] = []
 
     private weak var view: SearchUserPresenterOutput!
-    private var model: SearchUserModel
+    private var model: SearchUserModelInput
 
-    init(view: SearchUserPresenterOutput, model: SearchUserModel) {
+    init(view: SearchUserPresenterOutput, model: SearchUserModelInput) {
         self.view = view
         self.model = model
     }
