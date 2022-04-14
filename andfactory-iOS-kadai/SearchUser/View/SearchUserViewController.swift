@@ -30,17 +30,23 @@ final class SearchUserViewController: UIViewController {
         super.viewDidLoad()
         navigationItem.title = "Search User"
         tableView.register(UserCell.nib, forCellReuseIdentifier: UserCell.identifier)
+        tableView.keyboardDismissMode = .onDrag
         searchBar.autocapitalizationType = .none
 
         tableView.isHidden = true
         indicator.isHidden = true
         notFoundLabel.isHidden = true
     }
+
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
 }
 
 extension SearchUserViewController: UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         presenter.didTapSearchButton(searchWord: searchBar.text)
+        searchBar.resignFirstResponder()
     }
 }
 
