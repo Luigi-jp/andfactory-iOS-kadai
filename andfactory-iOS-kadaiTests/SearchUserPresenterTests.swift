@@ -18,7 +18,7 @@ class SearchUserPresenterOutputSpy: SearchUserPresenterOutput {
         calledUpdateUsers?(users)
     }
 
-    func errorOccureed(error: Error) {
+    func errorOccurred(error: Error) {
         calledErrorOccureed?(error)
     }
 

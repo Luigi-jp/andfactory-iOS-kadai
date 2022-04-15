@@ -85,7 +85,7 @@ extension SearchUserViewController: SearchUserPresenterOutput {
         }
     }
 
-    func errorOccureed(error: Error) {
+    func errorOccurred(error: Error) {
         DispatchQueue.main.async {
             let okAction = UIAlertAction(title: "OK", style: .default)
             self.showErrorAlert(message: error.localizedDescription, actions: [okAction])
