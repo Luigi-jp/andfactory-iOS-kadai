@@ -16,7 +16,7 @@ protocol SearchUserPresenterInput {
 
 protocol SearchUserPresenterOutput: AnyObject {
     func updateUsers(users: [User])
-    func errorOccureed(error: Error)
+    func errorOccurred(error: Error)
     func loading(load: Bool)
     func showUserDetail(user: User)
 }
@@ -51,7 +51,7 @@ extension SearchUserPresenter: SearchUserPresenterInput {
                 self.users = users
                 self.view.updateUsers(users: users)
             case .failure(let error):
-                self.view.errorOccureed(error: error)
+                self.view.errorOccurred(error: error)
             }
         }
     }
