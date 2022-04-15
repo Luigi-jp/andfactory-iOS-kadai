@@ -26,27 +26,27 @@
 
 ## 使用ライブラリ
 ### ネットワーク通信
-- Alamofire<br>
+- [Alamofire](https://github.com/Alamofire/Alamofire)<br>
 選定理由：定番かつstars数や更新頻度などを考慮して選択しました。
  
 ### 画像ライブラリ
-- Nuke<br>
+- [Nuke](https://github.com/kean/Nuke)<br>
 選定理由：今回はどの画像ライブラリを使用してもあまり違いが無いと考えたため、以下の記事を参考に最も表示スピードが速いものを選択しました。
 https://qiita.com/hcrane/items/422811dfc18ae919f8a4
 
 ### 静的解析ツール
-- SwiftLint<br>
-実務プロジェクトを想定してコーディングスタイル統一のため、静的解析ツールを導入しました。
+- [SwiftLint](https://github.com/realm/SwiftLint)<br>
+選定理由：実務プロジェクトを想定してコーディングスタイル統一のため、静的解析ツールを導入しました。
 
 ### ライセンス生成
-- LicensePlist<br>
-ライセンス表記を自動で行ってくれるため、導入しました。
+- [LicensePlist](https://github.com/mono0926/LicensePlist)<br>
+選定理由：ライセンス表記を自動で行ってくれるため、導入しました。
 
 ## CIツール
 - Bitrise
 
 ## API
-- https://docs.github.com/ja/rest/reference/search#search-users
+- [GitHub Search API](https://docs.github.com/ja/rest/reference/search#search-users)
 
 ## 工夫した点
 実務プロジェクトを想定して以下の導入を行いました。
