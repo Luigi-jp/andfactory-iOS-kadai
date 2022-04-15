@@ -53,3 +53,15 @@ https://qiita.com/hcrane/items/422811dfc18ae919f8a4
 - GitHub flowに沿ったブランチ運用
 - SwiftLintによるコーディングスタイルの統一化
 - Bitriseを用いた自動テスト
+
+## 環境構築手順
+```
+# リポジトリをローカルにコピー
+git@github.com:Luigi-jp/andfactory-iOS-kadai.git 
+
+# 移動
+cd ./andfactory-iOS-kadai  
+
+# ライブラリインストール
+pod install
+```
