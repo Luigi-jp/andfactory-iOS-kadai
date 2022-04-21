@@ -31,7 +31,7 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="7cE-OH-HXu"/>
                                 </connections>
                             </tableView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="MNI-hJ-uZk">
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="MNI-hJ-uZk">
                                 <rect key="frame" x="182" y="289" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="0yk-82-6Ij"/>
