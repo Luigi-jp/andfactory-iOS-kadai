@@ -144,15 +144,6 @@
 			path = SearchUser;
 			sourceTree = "<group>";
 		};
-		2A09FC812806419F009E4F53 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2A09FC7D28064176009E4F53 /* UserCell.swift */,
-				2A09FC7E28064176009E4F53 /* UserCell.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		2A09FC9328073D66009E4F53 /* Error */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +157,8 @@
 			children = (
 				2A09FC8428064BD4009E4F53 /* SearchUser.storyboard */,
 				2AF73DEE2805BC1D0003C295 /* SearchUserViewController.swift */,
+				2A09FC7D28064176009E4F53 /* UserCell.swift */,
+				2A09FC7E28064176009E4F53 /* UserCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,7 +234,6 @@
 			children = (
 				2A09FC78280637F3009E4F53 /* Extensions */,
 				2A09FC9328073D66009E4F53 /* Error */,
-				2A09FC812806419F009E4F53 /* View */,
 				2A09FC7B28063F9E009E4F53 /* SearchUser */,
 				2A09FC9928074DFD009E4F53 /* UserDetail */,
 				2AF73DEA2805BC1D0003C295 /* AppDelegate.swift */,
