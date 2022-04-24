@@ -43,15 +43,15 @@ extension SearchUserPresenter: SearchUserPresenterInput {
         let parameters = SearchUserParameter(searchWord: searchWord)
         view.loading(load: true)
 
-        model.fetchUser(parameters: parameters) { result in
-            self.view.loading(load: false)
+        model.fetchUser(parameters: parameters) { [weak self] result in
+            self?.view.loading(load: false)
 
             switch result {
             case .success(let users):
-                self.users = users
-                self.view.updateUsers(users: users)
+                self?.users = users
+                self?.view.updateUsers(users: users)
             case .failure(let error):
-                self.view.errorOccurred(error: error)
+                self?.view.errorOccurred(error: error)
             }
         }
     }
