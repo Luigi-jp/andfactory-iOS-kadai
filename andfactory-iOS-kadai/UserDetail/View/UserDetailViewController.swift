@@ -10,7 +10,7 @@ import WebKit
 
 final class UserDetailViewController: UIViewController {
     static func makeFromStoryboard(user: User) -> UserDetailViewController {
-        let vc = UIStoryboard.userDetailViewController
+        let vc = UIStoryboard(name: "UserDetail", bundle: nil).instantiateInitialViewController() as! Self
         let presenter = UserDetailPresenter(user: user, view: vc)
         vc.inject(presenter: presenter)
         return vc

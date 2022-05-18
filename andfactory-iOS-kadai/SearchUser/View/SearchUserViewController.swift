@@ -9,7 +9,7 @@ import UIKit
 
 final class SearchUserViewController: UIViewController {
     static func makeFromStoryboard() -> SearchUserViewController {
-        let vc = UIStoryboard.searchUserViewController
+        let vc = UIStoryboard(name: "SearchUser", bundle: nil).instantiateInitialViewController() as! Self
         let model = SearchUserModel()
         let presenter = SearchUserPresenter(view: vc, model: model)
         vc.inject(presenter: presenter)
