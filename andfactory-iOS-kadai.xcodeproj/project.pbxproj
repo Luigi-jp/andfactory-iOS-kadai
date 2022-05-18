@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		24A73C2773D4D837F836DA71 /* Pods_andfactory_iOS_kadai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECFC3075AE47F801A1184A9 /* Pods_andfactory_iOS_kadai.framework */; };
 		2A09FC772805E3F2009E4F53 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A09FC762805E3F2009E4F53 /* Settings.bundle */; };
-		2A09FC7A28063806009E4F53 /* UIStoryboard+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A09FC7928063806009E4F53 /* UIStoryboard+.swift */; };
 		2A09FC7F28064176009E4F53 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A09FC7D28064176009E4F53 /* UserCell.swift */; };
 		2A09FC8028064176009E4F53 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A09FC7E28064176009E4F53 /* UserCell.xib */; };
 		2A09FC83280642F9009E4F53 /* UITableViewCell+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A09FC82280642F9009E4F53 /* UITableViewCell+.swift */; };
@@ -57,7 +56,6 @@
 /* Begin PBXFileReference section */
 		0768EEDD8C8D0112F918DADA /* Pods_andfactory_iOS_kadai_andfactory_iOS_kadaiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_andfactory_iOS_kadai_andfactory_iOS_kadaiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A09FC762805E3F2009E4F53 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		2A09FC7928063806009E4F53 /* UIStoryboard+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+.swift"; sourceTree = "<group>"; };
 		2A09FC7D28064176009E4F53 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		2A09FC7E28064176009E4F53 /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
 		2A09FC82280642F9009E4F53 /* UITableViewCell+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+.swift"; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 		2A09FC78280637F3009E4F53 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				2A09FC7928063806009E4F53 /* UIStoryboard+.swift */,
 				2A09FC82280642F9009E4F53 /* UITableViewCell+.swift */,
 				2A09FC8E28072322009E4F53 /* UIImageView+.swift */,
 				2A09FCA22808342E009E4F53 /* UIViewController+.swift */,
@@ -570,7 +567,6 @@
 				2A09FC8F28072322009E4F53 /* UIImageView+.swift in Sources */,
 				2A09FCA32808342E009E4F53 /* UIViewController+.swift in Sources */,
 				2A09FC9D28074E2C009E4F53 /* UserDetailViewController.swift in Sources */,
-				2A09FC7A28063806009E4F53 /* UIStoryboard+.swift in Sources */,
 				2AF73DEF2805BC1D0003C295 /* SearchUserViewController.swift in Sources */,
 				2AF73DEB2805BC1D0003C295 /* AppDelegate.swift in Sources */,
 				2A09FC9528073DA7009E4F53 /* APIError.swift in Sources */,
